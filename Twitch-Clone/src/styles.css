@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+:host(app){
+    background: #000;
+}
+.bg-gray{
+    background:  #1d2125;
+}
+.vertical{
+    height: 100vh;
+    width: 17%;
+    border-right: 1px solid #e2e2e2;
+}
