@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-side-bar',
@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./side-bar.component.css']
 })
 export class SideBarComponent implements OnInit {
-
-  constructor() { }
+  CanalesF : string[];
+  constructor() { 
+    this.CanalesF = ['ImNio','n0ted','pelukaa','pelicanger','jhdlacruz','Westcol'];
+  }
 
   ngOnInit(): void {
   }

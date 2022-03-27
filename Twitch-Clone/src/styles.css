@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-:host(app){
-    background: #000;
+:host{
+    background-color: #1d2125;
 }
 .bg-gray{
     background:  #1d2125;
